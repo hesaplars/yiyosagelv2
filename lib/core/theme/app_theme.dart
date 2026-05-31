@@ -54,7 +54,7 @@ class AppTheme {
         iconTheme: IconThemeData(color: YGColors.lightText),
         titleTextStyle: TextStyle(fontFamily: 'Roboto', fontSize: 20, fontWeight: FontWeight.w900, color: YGColors.lightText),
       ),
-      cardTheme: CardTheme(
+      cardTheme: CardThemeData(
         color: YGColors.lightSurface,
         shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(24)),
         elevation: 0,
@@ -88,7 +88,7 @@ class AppTheme {
         iconTheme: IconThemeData(color: YGColors.darkText),
         titleTextStyle: TextStyle(fontFamily: 'Roboto', fontSize: 20, fontWeight: FontWeight.w900, color: YGColors.darkText),
       ),
-      cardTheme: CardTheme(
+      cardTheme: CardThemeData(
         color: YGColors.darkSurface,
         shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(24)),
         elevation: 0,

@@ -203,16 +203,14 @@ class _ProfileScreenState extends ConsumerState<ProfileScreen> {
           // Log out Button card
           SizedBox(
             height: 52,
-            child: ElevatedButton.styleFrom(
-              child: OutlinedButton(
-                onPressed: _signOut,
-                style: OutlinedButton.styleFrom(
-                  side: const BorderSide(color: YGColors.red, width: 1.5),
-                  shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(16)),
-                ),
-                child: const Text('Çıkış Yap', style: TextStyle(color: YGColors.red, fontWeight: FontWeight.w900)),
+            child: OutlinedButton(
+              onPressed: _signOut,
+              style: OutlinedButton.styleFrom(
+                side: const BorderSide(color: YGColors.red, width: 1.5),
+                shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(16)),
               ),
-            ).child,
+              child: const Text('Çıkış Yap', style: TextStyle(color: YGColors.red, fontWeight: FontWeight.w900)),
+            ),
           ),
         ],
       ),

@@ -178,7 +178,7 @@ class _LeaderboardModalState extends ConsumerState<LeaderboardModal> {
             label,
             style: TextStyle(
               fontWeight: FontWeight.w900,
-              color: active ? Colors.white : (Theme.of(context).brightness == Brightness.dark ? Colors.white60 : Colors.black80),
+              color: active ? Colors.white : (Theme.of(context).brightness == Brightness.dark ? Colors.white60 : Colors.black87),
             ),
           ),
         ),
@@ -296,7 +296,7 @@ class _LeaderboardModalState extends ConsumerState<LeaderboardModal> {
             height: 32,
             alignment: Alignment.center,
             decoration: BoxDecoration(
-              color: isDark ? Colors.white05 : Colors.black05,
+              color: isDark ? Colors.white.withOpacity(0.05) : Colors.black.withOpacity(0.05),
               shape: BoxShape.circle,
             ),
             child: Text(

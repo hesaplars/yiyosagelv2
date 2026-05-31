@@ -212,7 +212,7 @@ class _WordleScreenState extends State<WordleScreen> {
                   decoration: BoxDecoration(
                     color: Theme.of(context).brightness == Brightness.dark
                         ? Colors.white10
-                        : Colors.black05,
+                        : Colors.black.withOpacity(0.05),
                     borderRadius: BorderRadius.circular(8),
                   ),
                   child: Text(

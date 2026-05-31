@@ -20,19 +20,16 @@ class BillingService {
     try {
       await Purchases.setLogLevel(LogLevel.debug);
 
+      final currentUser = FirebaseService.instance.currentUser;
+      final appUserId = currentUser?.uid;
+
       late PurchasesConfiguration configuration;
       if (Platform.isAndroid) {
-        configuration = PurchasesConfiguration(_googleApiKey);
+        configuration = PurchasesConfiguration(_googleApiKey, appUserId: appUserId);
       } else if (Platform.isIOS) {
-        configuration = PurchasesConfiguration(_iosApiKey);
+        configuration = PurchasesConfiguration(_iosApiKey, appUserId: appUserId);
       } else {
         return;
-      }
-
-      // Configure RevenueCat with active user UID if logged in
-      final currentUser = FirebaseService.instance.currentUser;
-      if (currentUser != null) {
-        configuration.appUserId = currentUser.uid;
       }
 
       await Purchases.configure(configuration);
