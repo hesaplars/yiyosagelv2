@@ -22,16 +22,15 @@ if not exist "%FLUTTER%" (
   exit /b 1
 )
 
-echo 1/2: Bagimliliklar kontrol ediliyor...
-call "%FLUTTER%" pub get
-if errorlevel 1 (
-  echo HATA: pub get basarisiz oldu.
-  pause
-  exit /b 1
-)
+echo 1/3: Eski derleme kalintilari temizleniyor...
+call "%FLUTTER%" clean
 
 echo.
-echo 2/2: Android APK (Release) derleniyor...
+echo 2/3: Bagimliliklar kontrol ediliyor...
+call "%FLUTTER%" pub get
+
+echo.
+echo 3/3: Android APK (Release) derleniyor...
 echo Bu islem ilk seferde birkaç dakika surebilir, lutfen bekleyin...
 echo.
 
