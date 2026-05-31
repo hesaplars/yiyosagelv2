@@ -25,11 +25,15 @@ class BillingService {
 
       late PurchasesConfiguration configuration;
       if (Platform.isAndroid) {
-        configuration = PurchasesConfiguration(_googleApiKey, appUserId: appUserId);
+        configuration = PurchasesConfiguration(_googleApiKey);
       } else if (Platform.isIOS) {
-        configuration = PurchasesConfiguration(_iosApiKey, appUserId: appUserId);
+        configuration = PurchasesConfiguration(_iosApiKey);
       } else {
         return;
+      }
+
+      if (appUserId != null) {
+        configuration.appUserID = appUserId;
       }
 
       await Purchases.configure(configuration);
