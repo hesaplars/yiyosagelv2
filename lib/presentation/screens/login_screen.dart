@@ -140,7 +140,7 @@ class _LoginScreenState extends ConsumerState<LoginScreen> with SingleTickerProv
                       'YiyosaGel',
                       style: TextStyle(
                         color: YGColors.gold,
-                        fontWeight: FontWeight.w950,
+                        fontWeight: FontWeight.w900,
                         fontSize: 36,
                         letterSpacing: -0.5,
                       ),

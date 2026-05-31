@@ -115,7 +115,7 @@ class _StoreScreenState extends ConsumerState<StoreScreen> {
                   const SizedBox(width: 8),
                   Text(
                     '$balance Altın',
-                    style: const TextStyle(fontWeight: FontWeight.w950, fontSize: 16, color: YGColors.gold),
+                    style: const TextStyle(fontWeight: FontWeight.w900, fontSize: 16, color: YGColors.gold),
                   ),
                 ],
               ),
@@ -224,7 +224,7 @@ class _StoreScreenState extends ConsumerState<StoreScreen> {
                                         side: const BorderSide(color: YGColors.green, width: 1.5),
                                         shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(12)),
                                       ),
-                                      child: const Text('Kullan', style: TextStyle(color: YGColors.green, fontWeight: FontWeight.w950)),
+                                      child: const Text('Kullan', style: TextStyle(color: YGColors.green, fontWeight: FontWeight.w900)),
                                     ),
                                   )
                                 : SizedBox(
@@ -237,7 +237,7 @@ class _StoreScreenState extends ConsumerState<StoreScreen> {
                                         elevation: 0,
                                         shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(12)),
                                       ),
-                                      child: Text('$price ✦', style: const TextStyle(fontWeight: FontWeight.w950)),
+                                      child: Text('$price ✦', style: const TextStyle(fontWeight: FontWeight.w900)),
                                     ),
                                   ),
                           ],

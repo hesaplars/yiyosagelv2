@@ -84,7 +84,7 @@ class _HomeScreenState extends ConsumerState<HomeScreen> {
             children: [
               const Text(
                 'Arenalar & Modlar',
-                style: TextStyle(fontWeight: FontWeight.w950, fontSize: 18),
+                style: TextStyle(fontWeight: FontWeight.w900, fontSize: 18),
               ),
               SoftPill(
                 onTap: () => LeaderboardModal.show(context),

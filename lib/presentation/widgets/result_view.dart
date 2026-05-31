@@ -27,7 +27,7 @@ class ResultView extends StatelessWidget {
       body: SafeArea(
         child: Center(
           child: Container(
-            maxHeight: 460,
+            constraints: const BoxConstraints(maxHeight: 460),
             margin: const EdgeInsets.symmetric(horizontal: 24),
             padding: const EdgeInsets.all(24),
             decoration: AppTheme.premiumBoxDecoration(isDark: isDark, radius: 28),
@@ -47,7 +47,7 @@ class ResultView extends StatelessWidget {
                 const SizedBox(height: 16),
                 Text(
                   title,
-                  style: const TextStyle(fontWeight: FontWeight.w950, fontSize: 24),
+                  style: const TextStyle(fontWeight: FontWeight.w900, fontSize: 24),
                 ),
                 const SizedBox(height: 4),
                 const Text(
@@ -121,7 +121,7 @@ class ResultView extends StatelessWidget {
         children: [
           Text(
             value,
-            style: TextStyle(color: color, fontWeight: FontWeight.w950, fontSize: 22),
+            style: TextStyle(color: color, fontWeight: FontWeight.w900, fontSize: 22),
           ),
           const SizedBox(height: 2),
           Text(

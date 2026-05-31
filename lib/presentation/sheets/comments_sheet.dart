@@ -173,7 +173,7 @@ class _CommentsSheetState extends ConsumerState<CommentsSheet> {
                   child: Column(
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
-                      const Text('Yorumlar', style: TextStyle(fontWeight: FontWeight.w950, fontSize: 20)),
+                      const Text('Yorumlar', style: TextStyle(fontWeight: FontWeight.w900, fontSize: 20)),
                       Text(widget.quiz['title']?.toString() ?? '', style: const TextStyle(color: Colors.grey, fontWeight: FontWeight.bold, fontSize: 13)),
                     ],
                   ),

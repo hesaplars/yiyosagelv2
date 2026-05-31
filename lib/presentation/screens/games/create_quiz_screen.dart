@@ -97,7 +97,7 @@ class _CreateQuizScreenState extends ConsumerState<CreateQuizScreen> {
 
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Yeni Oyun Oluştur', style: TextStyle(fontWeight: FontWeight.w950)),
+        title: const Text('Yeni Oyun Oluştur', style: TextStyle(fontWeight: FontWeight.w900)),
       ),
       body: _busy
           ? const Center(child: CircularProgressIndicator(color: YGColors.gold))
@@ -197,7 +197,7 @@ class _CreateQuizScreenState extends ConsumerState<CreateQuizScreen> {
                             side: const BorderSide(color: YGColors.gold, width: 1.5),
                             shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(16)),
                           ),
-                          child: const Text('Soru Ekle', style: TextStyle(color: YGColors.gold, fontWeight: FontWeight.w950)),
+                          child: const Text('Soru Ekle', style: TextStyle(color: YGColors.gold, fontWeight: FontWeight.w900)),
                         ),
                       ),
                     ),
@@ -213,7 +213,7 @@ class _CreateQuizScreenState extends ConsumerState<CreateQuizScreen> {
                             elevation: 0,
                             shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(16)),
                           ),
-                          child: const Text('Yayınla', style: TextStyle(fontWeight: FontWeight.w950)),
+                          child: const Text('Yayınla', style: TextStyle(fontWeight: FontWeight.w900)),
                         ),
                       ),
                     ),

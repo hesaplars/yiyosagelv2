@@ -132,7 +132,7 @@ class _ProfileScreenState extends ConsumerState<ProfileScreen> {
               children: [
                 const Text(
                   'Profil Bilgileri',
-                  style: TextStyle(fontWeight: FontWeight.w950, fontSize: 18),
+                  style: TextStyle(fontWeight: FontWeight.w900, fontSize: 18),
                 ),
                 const SizedBox(height: 16),
                 TextField(

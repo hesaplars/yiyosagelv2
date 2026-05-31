@@ -177,13 +177,13 @@ class _LiveGameScreenState extends ConsumerState<LiveGameScreen> {
       appBar: AppBar(
         title: Text(
           widget.publicMode ? 'Tur (7/24 Canlı)' : 'Oda Kodu: $_code',
-          style: const TextStyle(fontWeight: FontWeight.w950),
+          style: const TextStyle(fontWeight: FontWeight.w900),
         ),
         actions: [
           if (_room['status'] == 'lobby')
             TextButton(
               onPressed: _startRound,
-              child: const Text('BAŞLAT', style: TextStyle(color: YGColors.green, fontWeight: FontWeight.w950)),
+              child: const Text('BAŞLAT', style: TextStyle(color: YGColors.green, fontWeight: FontWeight.w900)),
             ),
         ],
       ),

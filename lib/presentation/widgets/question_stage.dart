@@ -78,7 +78,7 @@ class QuestionStage extends StatelessWidget {
                 child: Text(
                   '${q['letter'] ?? ''}',
                   style: TextStyle(
-                    fontWeight: FontWeight.w950,
+                    fontWeight: FontWeight.w900,
                     fontSize: active ? 20 : 15,
                     color: active ? Colors.white : (isDark ? YGColors.darkText : YGColors.lightText),
                   ),
@@ -107,7 +107,7 @@ class QuestionStage extends StatelessWidget {
                       _formatTime(secondsLeft),
                       style: TextStyle(
                         fontSize: 28,
-                        fontWeight: FontWeight.w950,
+                        fontWeight: FontWeight.w900,
                         color: secondsLeft < 30 ? YGColors.red : (isDark ? YGColors.darkText : YGColors.lightText),
                       ),
                     ),

@@ -168,7 +168,7 @@ class _CustomGameScreenState extends ConsumerState<CustomGameScreen> {
 
     return Scaffold(
       appBar: AppBar(
-        title: Text(widget.quiz['title']?.toString() ?? 'Kelime Oyunu', style: const TextStyle(fontWeight: FontWeight.w950)),
+        title: Text(widget.quiz['title']?.toString() ?? 'Kelime Oyunu', style: const TextStyle(fontWeight: FontWeight.w900)),
       ),
       body: q == null
           ? const Center(child: Text('Soru bulunamadı.'))

@@ -93,7 +93,7 @@ class _RoomLobbyScreenState extends ConsumerState<RoomLobbyScreen> {
 
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Oda Kur', style: TextStyle(fontWeight: FontWeight.w950)),
+        title: const Text('Oda Kur', style: TextStyle(fontWeight: FontWeight.w900)),
       ),
       body: Center(
         child: SingleChildScrollView(
@@ -108,7 +108,7 @@ class _RoomLobbyScreenState extends ConsumerState<RoomLobbyScreen> {
                 const SizedBox(height: 16),
                 const Text(
                   'Özel Oyun Odası',
-                  style: TextStyle(fontSize: 22, fontWeight: FontWeight.w950),
+                  style: TextStyle(fontSize: 22, fontWeight: FontWeight.w900),
                 ),
                 const SizedBox(height: 8),
                 const Text(

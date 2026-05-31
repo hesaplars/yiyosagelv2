@@ -179,7 +179,7 @@ class _DailyGameScreenState extends State<DailyGameScreen> {
 
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Günlük Rekabetçi', style: TextStyle(fontWeight: FontWeight.w950)),
+        title: const Text('Günlük Rekabetçi', style: TextStyle(fontWeight: FontWeight.w900)),
         leading: IconButton(
           icon: const Icon(Icons.arrow_back_ios_new),
           onPressed: () => Navigator.maybePop(context),

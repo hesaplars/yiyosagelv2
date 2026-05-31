@@ -83,7 +83,7 @@ class _MainAppShellState extends ConsumerState<MainAppShell> {
                       alignment: Alignment.center,
                       child: const Text(
                         'YG',
-                        style: TextStyle(color: YGColors.gold, fontWeight: FontWeight.w950, fontSize: 16),
+                        style: TextStyle(color: YGColors.gold, fontWeight: FontWeight.w900, fontSize: 16),
                       ),
                     ),
                     const SizedBox(width: 10),
@@ -93,7 +93,7 @@ class _MainAppShellState extends ConsumerState<MainAppShell> {
                       children: [
                         const Text(
                           'YiyosaGel',
-                          style: TextStyle(color: YGColors.gold, fontWeight: FontWeight.w950, fontSize: 18, height: 1.1),
+                          style: TextStyle(color: YGColors.gold, fontWeight: FontWeight.w900, fontSize: 18, height: 1.1),
                         ),
                         Text(
                           'Kelime Arenası',

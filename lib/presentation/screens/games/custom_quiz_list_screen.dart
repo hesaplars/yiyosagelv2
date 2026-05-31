@@ -78,7 +78,7 @@ class _CustomQuizListScreenState extends ConsumerState<CustomQuizListScreen> {
 
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Oyun Keşfet', style: TextStyle(fontWeight: FontWeight.w950)),
+        title: const Text('Oyun Keşfet', style: TextStyle(fontWeight: FontWeight.w900)),
         actions: [
           IconButton(
             icon: const Icon(Icons.add, color: YGColors.gold),

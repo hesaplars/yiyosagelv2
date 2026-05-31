@@ -271,7 +271,7 @@ class UserProfileSheet extends ConsumerWidget {
           children: [
             AvatarBubble(avatar: avatar, size: 74, frameColor: initialDetails['avatarFrameId'] != null ? YGColors.gold : null),
             const SizedBox(height: 12),
-            Text(name, style: const TextStyle(fontWeight: FontWeight.w950, fontSize: 24)),
+            Text(name, style: const TextStyle(fontWeight: FontWeight.w900, fontSize: 24)),
             if (bio.isNotEmpty) ...[
               const SizedBox(height: 6),
               Text(bio, style: const TextStyle(color: Colors.grey, fontWeight: FontWeight.bold, fontSize: 13)),
@@ -287,7 +287,7 @@ class UserProfileSheet extends ConsumerWidget {
                       shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(16)),
                       padding: const EdgeInsets.symmetric(vertical: 14),
                     ),
-                    child: const Text('Arkadaş Ekle', style: TextStyle(color: YGColors.gold, fontWeight: FontWeight.w950)),
+                    child: const Text('Arkadaş Ekle', style: TextStyle(color: YGColors.gold, fontWeight: FontWeight.w900)),
                   ),
                 ),
                 const SizedBox(width: 12),
@@ -313,7 +313,7 @@ class UserProfileSheet extends ConsumerWidget {
                       shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(16)),
                       padding: const EdgeInsets.symmetric(vertical: 14),
                     ),
-                    child: const Text('Mesaj Gönder', style: TextStyle(fontWeight: FontWeight.w950)),
+                    child: const Text('Mesaj Gönder', style: TextStyle(fontWeight: FontWeight.w900)),
                   ),
                 ),
               ],

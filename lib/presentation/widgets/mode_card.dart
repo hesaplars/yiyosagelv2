@@ -61,7 +61,7 @@ class ModeCard extends StatelessWidget {
                               title,
                               style: const TextStyle(
                                 fontSize: 20,
-                                fontWeight: FontWeight.w950,
+                                fontWeight: FontWeight.w900,
                                 letterSpacing: -0.2,
                               ),
                             ),

@@ -89,7 +89,7 @@ class _LeaderboardModalState extends ConsumerState<LeaderboardModal> {
               padding: const EdgeInsets.symmetric(horizontal: 20.0),
               child: Row(
                 children: [
-                  const Text('Liderlik Tablosu', style: TextStyle(fontWeight: FontWeight.w950, fontSize: 24)),
+                  const Text('Liderlik Tablosu', style: TextStyle(fontWeight: FontWeight.w900, fontSize: 24)),
                   const Spacer(),
                   IconButton(
                     onPressed: () => Navigator.pop(context),
@@ -255,7 +255,7 @@ class _LeaderboardModalState extends ConsumerState<LeaderboardModal> {
             player['name']?.toString() ?? 'Oyuncu',
             maxLines: 1,
             overflow: TextOverflow.ellipsis,
-            style: const TextStyle(fontWeight: FontWeight.w950, fontSize: 13),
+            style: const TextStyle(fontWeight: FontWeight.w900, fontSize: 13),
           ),
           Text(
             '${player['score']} Puan',

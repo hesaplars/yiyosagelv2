@@ -62,7 +62,7 @@ class _WordleScreenState extends State<WordleScreen> {
 
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Kelime Tahmin', style: TextStyle(fontWeight: FontWeight.w950)),
+        title: const Text('Kelime Tahmin', style: TextStyle(fontWeight: FontWeight.w900)),
       ),
       body: SafeArea(
         child: Column(
@@ -113,7 +113,7 @@ class _WordleScreenState extends State<WordleScreen> {
                               char,
                               style: TextStyle(
                                 fontSize: 22,
-                                fontWeight: FontWeight.w950,
+                                fontWeight: FontWeight.w900,
                                 color: textColor,
                               ),
                             ),
